@@ -60,4 +60,30 @@ button:hover {
     margin-bottom: 10px;
     border-radius: 8px;
     border-left: 5px solid #4CAFEF;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.botoes {
+    display: flex;
+    gap: 8px;
+}
+
+.botoes button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-editar {
+    background: #4CAF50;
+    color: white;
+}
+
+.btn-excluir {
+    background: #E74C3C;
+    color: white;
 }
